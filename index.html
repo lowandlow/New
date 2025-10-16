@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First Webpage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: Arial;
-      background-color: red;
-      text-align: center;
-      margin-top: 100px;
-    }
-    h1 {
-      color: blue;
-    }
-    button {
-      padding: 10px 20px;
-      background-color: black;
-      border: black;
-      color: white;
-      border-radius: 8px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Animal Sounds</title>
+  
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Hello from my webpage!</h1>
-  <p style="color: blue; font-family: Arial;">Test''''''</p>
-  <button onclick="alert('❗🆗 You clicked me!')">Click Me</button>
-</body>
+  <body>
+    <h1> </h1>
+    <div class="container">
+      <button onclick="playSound('dog')">Dog</button>
+      <button onclick="playSound('cat')">Cat</button>
+      <button onclick="playSound('cow')">Cow</button>
+      <button onclick="playSound('lion')">Lion</button>
+    </div>
+    <script src="script.js"></script>
+    
+  
+  </body>
 </html>
