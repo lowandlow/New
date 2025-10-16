@@ -1,4 +1,4 @@
-function playSound(animal){
-  const sound=new Audio(`sounds/${animal}.mp3`);
-  sound.play();
+function playSound(animal) {
+  const audio = new Audio(`sounds/${animal}.mp3`);
+  audio.play();
 }
